@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BASE</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <br>
+    <br>
+    <h1 align="center">BASE</h1>
+    <!--
+    13 - criar base.html para herdar
+{% extends 'base.html' %} # Extende a partir do arquivo base.html
+{% load static%}
+{% block content %}
+    !-- Hero Area Start --
+      {% include 'hero.html' %}
+    !-- Hero Area End --
+
+    !-- Services Section Start --
+      {% include 'servicos.html'%}
+    !-- Services Section End --
+
+    !-- About Section start --
+      {% include 'sobre.html' %}
+    !-- About Section End --
+...
+
+{% endblock %} # Fecha bloco content
+    -->
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
