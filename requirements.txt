@@ -2,7 +2,7 @@ dj-static==0.0.6
 Django==2.2.13
 django-stdimage==5.0.1
 gunicorn==19.9.0
-Pillow==6.2.2
+Pillow==7.1.0
 progressbar2==3.47.0
 psycopg2-binary==2.8.4
 python-utils==2.3.0
